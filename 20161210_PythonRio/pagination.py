@@ -28,3 +28,7 @@ def show():
         $("#floatingbottom").css("z-index", "1000");
     """))
 show()
+display(Javascript("""
+$('div#header-container').hide();
+$('div#maintoolbar').hide();
+"""))
